@@ -12,7 +12,7 @@ function Movies({ movies }) {
       </nav>
       <Switch>
         <Route path="/movies/:movieId">
-          <MovieDetails />
+          <MovieDetails movies={movies} />
         </Route>
       </Switch>
     </div>
